@@ -1,0 +1,114 @@
+body{
+    margin: auto;
+    font-family: Tahoma, sans-serif;
+    background-color: #121212;
+    
+}
+
+main{
+    padding: 3rem;
+    color:white;
+}
+
+addons{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+.games h3{
+    text-align:center;
+}
+
+addons .socmed{
+    align-self: flex-start;
+}
+.socmed h3{
+    text-align: center;
+}
+.socmed svg{
+    margin: 0 1vw;
+}
+
+#head-nav-icon{
+    margin-top: 1rem;
+    width: 50px;
+}
+
+#image-games{
+    background-color: #003952;
+    color:black;
+    width: 9rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.head-nav{
+    background-image: url("assets/headerNavbar/SkyDarkBackground.jpg");
+    background-size: cover;
+    height: 10rem;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-nav h4{
+    color:white;
+}
+
+.divider-with-text {
+    margin: 21vh 5vw 9vh 5vw;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.divider-with-text span{
+    font-size: 300%;
+}
+.divider-with-text > span {
+    position: relative;
+    display: inline-block;
+}
+
+.divider-with-text > span:before,
+.divider-with-text > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 3px;
+    background: #003952;
+}
+
+.divider-with-text > span:before {
+    right: 100%;
+    margin-right: 5vw;
+}
+
+.divider-with-text > span:after {
+    left: 100%;
+    margin-left: 5vw;
+}
+
+#top-button {
+    display: none; 
+    position: fixed; 
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: #003952;
+    color: white; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    align-items: center;
+  }
+
+  
+  #topbutton:hover {
+    background-color: #555; 
+  }

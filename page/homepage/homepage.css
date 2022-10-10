@@ -1,0 +1,30 @@
+blockquote{
+    font-style: italic;
+}
+
+#profile-homepage{
+    margin-top: 1rem;
+
+    border-radius: 100%;
+    border: 0.5rem solid #003952;
+    height: 47vh;
+    width: 23vw;
+}
+
+.hero-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-left-section{
+    width: 50%;
+}
+
+.hero-left-section h1{
+    font-size: 400%;
+}
+
+.hero-left-section p{
+    line-height: 1.5rem;
+}

@@ -1,0 +1,12 @@
+.footer-container{
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #003952;
+}
+
+.footer-container p{
+    font-weight: bold;
+    
+    color:white;
+}

@@ -1,0 +1,140 @@
+svg{
+    background-color: #003952;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+#html-label{
+    text-align: center;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 6vw;
+}
+#css-label{
+    text-align: center;
+    background-color: green;
+    color:black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 5vw;
+}
+#css-label img{
+    width: 1vw;
+}
+#javascript-label{
+    text-align: center;
+    background-color: gold;
+    color:black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 9vw;
+}
+#javascript-label img{
+    width:0.9vw;
+}
+#react-label{
+    text-align: center;
+    background-color: #003952;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 7vw;
+}
+#react-label img{
+    width:1vw;
+}
+
+#dota2-label{
+    text-align: center;
+    background-color: navy;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 7vw;
+}
+#dota2-label img{
+    width:0.9vw;
+}
+#valorant-label{
+    text-align: center;
+    background-color:dodgerblue;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 9vw;
+}
+#valorant-label img{
+    width:1.3vw;
+}
+#vscode-label{
+    text-align: center;
+    background-color:lightpink;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 8vw;
+}
+#vscode-label img{
+    width:1vw;
+}
+#android-label{
+    text-align: center;
+    background-color:brown;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 12vw;
+}
+#android-label img{
+    width:1vw;
+}
+
+#jack-label{
+    text-align: center;
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 15vw;
+}
+#jack-label img{
+    width:0.8vw;
+}
+
+.about-section{
+    margin-bottom: 15vh;
+}
+.about-container div{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-container div span{
+    width: 50%;
+}
+.about-container div h1{
+    font-size: 210%;
+}
+.about-container p{
+    line-height: 4vh;
+}
+.about-container div img{
+    width: 30vw;
+}
+.about-container span div{
+    display:flex;
+    justify-content: left;
+}
+.about-container span div p{
+    margin: 0 0.5vw;
+}
+.about-container span div img{
+    width: 0.7vw;
+}
+
+
+
+
+
